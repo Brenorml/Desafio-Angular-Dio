@@ -3,5 +3,6 @@ export class Book {
     subtitle!: string;
     price!: string;
     image!: string;
-    url!: string;    
+    url!: string; 
+    priceInNumber?: number;    
 }
